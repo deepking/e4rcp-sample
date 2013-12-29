@@ -6,7 +6,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             name="e4rcp"
-            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+            application="e4rcp.application">
          <property
                name="clearPersistedState"
                value="true">
@@ -19,7 +19,28 @@
                name="appName"
                value="e4rcp">
          </property>
+         <property
+               name="applicationXMI"
+               value="e4rcp/Application.e4xmi">
+         </property>
       </product>
+   </extension>
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="e4rcp.compatibility.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="e4rcp.compatibility.Perspective"
+            id="e4rcp.perspective"
+            name="e4rcp perspective">
+      </perspective>
    </extension>
 
 </plugin>

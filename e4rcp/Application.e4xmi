@@ -2,7 +2,9 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Rs3EAGnJEeOGzOFis6Sl6A" elementId="org.eclipse.e4.ide.application" bindingContexts="_Rs3rGGnJEeOGzOFis6Sl6A">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_Rs3rEGnJEeOGzOFis6Sl6A" label="e4rcp" width="500" height="400">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_Rs3rL2nJEeOGzOFis6Sl6A">
-      <children xsi:type="advanced:Perspective" xmi:id="_Rs4SIGnJEeOGzOFis6Sl6A">
+      <children xsi:type="advanced:Perspective" xmi:id="_Rs4SIGnJEeOGzOFis6Sl6A" elementId="e4rcp.perspective" selectedElement="_Rs4SIWnJEeOGzOFis6Sl6A" label="Sample">
+        <tags>Perspective</tags>
+        <tags>categoryTag:General</tags>
         <children xsi:type="basic:PartSashContainer" xmi:id="_Rs4SIWnJEeOGzOFis6Sl6A">
           <children xsi:type="basic:PartStack" xmi:id="_Rs4SImnJEeOGzOFis6Sl6A">
             <children xsi:type="basic:Part" xmi:id="_Rs4SI2nJEeOGzOFis6Sl6A" contributionURI="bundleclass://e4rcp/e4rcp.parts.ScalaPart" label="Sample Part"/>
