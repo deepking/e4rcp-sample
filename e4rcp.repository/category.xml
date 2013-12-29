@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/e4rcp.feature_1.0.0.qualifier.jar" id="e4rcp.feature" version="1.0.0.qualifier">
+      <category name="e4rcp.category"/>
+   </feature>
+   <category-def name="e4rcp.category" label="e4rcp category"/>
+</site>
