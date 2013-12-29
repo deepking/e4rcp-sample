@@ -12,17 +12,37 @@
         </children>
       </children>
     </children>
-    <mainMenu xmi:id="_Rs3rKGnJEeOGzOFis6Sl6A" elementId="menu:org.eclipse.ui.main.menu">
-      <children xsi:type="menu:Menu" xmi:id="_Rs3rKWnJEeOGzOFis6Sl6A" label="File">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Rs3rKmnJEeOGzOFis6Sl6A" label="Open" iconURI="platform:/plugin/e4rcp/icons/sample.gif" command="_Rs3rH2nJEeOGzOFis6Sl6A"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Rs3rK2nJEeOGzOFis6Sl6A" label="Save" iconURI="platform:/plugin/e4rcp/icons/save_edit.gif" command="_Rs3rImnJEeOGzOFis6Sl6A"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Rs3rLGnJEeOGzOFis6Sl6A" label="Quit" command="_Rs3rG2nJEeOGzOFis6Sl6A"/>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_Hmg4kNSjEeGwXp2p959l3w" elementId="org.eclipse.ui.editorss">
+      <children xsi:type="basic:PartStack" xmi:id="_HmhfoNSjEeGwXp2p959l3w" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
       </children>
-      <children xsi:type="menu:Menu" xmi:id="_Rs3rLWnJEeOGzOFis6Sl6A" label="Help">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Rs3rLmnJEeOGzOFis6Sl6A" label="About" command="_Rs3rJWnJEeOGzOFis6Sl6A"/>
-      </children>
-    </mainMenu>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_WqRGcNS1EeGBn6dQ9VPexA" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views//icons/full/eview16/prop_ps.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_HngXENSjEeGwXp2p959l3w" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_Hng-INSjEeGwXp2p959l3w" elementId="org.eclipse.ui.views.PropertySheet"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_sS7Q8NS1EeGBn6dQ9VPexA" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_4UXAUNSmEeG-a6zBTyJ-wg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_4VpZwNSmEeG-a6zBTyJ-wg" elementId="org.eclipse.ui.navigator.ProjectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:org.eclipse.ui.navigator.ProjectExplorer#PopupMenu</tags>
+      </menus>
+      <toolbar xmi:id="_4UXAUdSmEeG-a6zBTyJ-wg" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
+    </sharedElements>
     <trimBars xmi:id="_Rs4SJGnJEeOGzOFis6Sl6A">
+      <tags>stretch</tags>
       <children xsi:type="menu:ToolBar" xmi:id="_Rs4SJWnJEeOGzOFis6Sl6A" elementId="toolbar:org.eclipse.ui.main.toolbar">
         <children xsi:type="menu:HandledToolItem" xmi:id="_Rs4SJmnJEeOGzOFis6Sl6A" iconURI="platform:/plugin/e4rcp/icons/sample.gif" command="_Rs3rH2nJEeOGzOFis6Sl6A"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_Rs4SJ2nJEeOGzOFis6Sl6A" iconURI="platform:/plugin/e4rcp/icons/save_edit.gif" command="_Rs3rImnJEeOGzOFis6Sl6A"/>
@@ -43,6 +63,22 @@
     <children xmi:id="_Rs3rGWnJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_Rs3rGmnJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <descriptors xmi:id="_9E9jYNS4EeGBn6dQ9VPexA" elementId="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" category="org.eclipse.e4.primaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_W6yT4NSjEeGgKvWHVYtRxQ" elementId="org.eclipse.ui.console.ConsoleView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console//icons/full/cview16/console_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_W6ziANSjEeGgKvWHVYtRxQ" elementId="org.eclipse.ui.views.ProgressView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/pview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_W63zcdSjEeGgKvWHVYtRxQ" elementId="org.eclipse.ui.views.PropertySheet" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views//icons/full/eview16/prop_ps.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
   <commands xmi:id="_Rs3rG2nJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
   <commands xmi:id="_Rs3rH2nJEeOGzOFis6Sl6A" elementId="e4rcp.open" commandName="openCommand"/>
   <commands xmi:id="_Rs3rImnJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
