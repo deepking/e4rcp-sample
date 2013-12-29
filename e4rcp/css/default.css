@@ -60,3 +60,7 @@ CTabItem.busy {
 CTabItem.highlighted {
     font-weight: bold;
 }
+
+#SearchField {
+    visibility: hidden; 
+}
