@@ -46,6 +46,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_Rs4SJWnJEeOGzOFis6Sl6A" elementId="toolbar:org.eclipse.ui.main.toolbar">
         <children xsi:type="menu:HandledToolItem" xmi:id="_Rs4SJmnJEeOGzOFis6Sl6A" iconURI="platform:/plugin/e4rcp/icons/sample.gif" command="_Rs3rH2nJEeOGzOFis6Sl6A"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_Rs4SJ2nJEeOGzOFis6Sl6A" iconURI="platform:/plugin/e4rcp/icons/save_edit.gif" command="_Rs3rImnJEeOGzOFis6Sl6A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_IiZx8IG3EeOVevRc0QmoIw" elementId="e4rcp.handledtoolitem.0" label="Wizard" command="_3OVpIIG2EeOVevRc0QmoIw"/>
       </children>
     </trimBars>
   </children>
@@ -53,6 +54,7 @@
   <handlers xmi:id="_Rs3rIGnJEeOGzOFis6Sl6A" elementId="e4rcp.handler.openCommand" contributionURI="bundleclass://e4rcp/e4rcp.handlers.OpenHandler" command="_Rs3rH2nJEeOGzOFis6Sl6A"/>
   <handlers xmi:id="_Rs3rI2nJEeOGzOFis6Sl6A" elementId="e4rcp.handler.saveCommand" contributionURI="bundleclass://e4rcp/e4rcp.handlers.SaveHandler" command="_Rs3rImnJEeOGzOFis6Sl6A"/>
   <handlers xmi:id="_Rs3rJmnJEeOGzOFis6Sl6A" elementId="e4rcp.handler.aboutCommand" contributionURI="bundleclass://e4rcp/e4rcp.handlers.AboutHandler" command="_Rs3rJWnJEeOGzOFis6Sl6A"/>
+  <handlers xmi:id="_8C91wIG2EeOVevRc0QmoIw" elementId="e4rcp.handler.0" contributionURI="bundleclass://e4rcp/e4rcp.handlers.OpenDemoWizard" command="_3OVpIIG2EeOVevRc0QmoIw"/>
   <bindingTables xmi:id="_Rs3rHWnJEeOGzOFis6Sl6A" bindingContext="_Rs3rGGnJEeOGzOFis6Sl6A">
     <bindings xmi:id="_Rs3rHmnJEeOGzOFis6Sl6A" keySequence="M1+Q" command="_Rs3rG2nJEeOGzOFis6Sl6A"/>
     <bindings xmi:id="_Rs3rIWnJEeOGzOFis6Sl6A" keySequence="M1+O" command="_Rs3rH2nJEeOGzOFis6Sl6A"/>
@@ -83,6 +85,7 @@
   <commands xmi:id="_Rs3rH2nJEeOGzOFis6Sl6A" elementId="e4rcp.open" commandName="openCommand"/>
   <commands xmi:id="_Rs3rImnJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
   <commands xmi:id="_Rs3rJWnJEeOGzOFis6Sl6A" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_3OVpIIG2EeOVevRc0QmoIw" elementId="e4rcp.command.openDemoWizard" commandName="openDemoWizardCommand"/>
   <addons xmi:id="_Rs3rEWnJEeOGzOFis6Sl6A" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_Rs3rEmnJEeOGzOFis6Sl6A" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_Rs3rE2nJEeOGzOFis6Sl6A" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
