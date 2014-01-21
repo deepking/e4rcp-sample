@@ -14,7 +14,7 @@ class OpenDemoWizard {
   @Execute
   //def execute(@Named(IServiceConstants.ACTIVE_SHELL) shell: Shell) {
   def execute(@Active shell: Shell) {
-    val dialog = new WizardDialog(shell, new DemoWizard(shell))
+    val dialog = new WizardDialog(shell, new DemoWizard)
     dialog.open()
   }
 }
