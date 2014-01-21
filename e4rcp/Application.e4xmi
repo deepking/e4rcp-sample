@@ -9,6 +9,7 @@
           <children xsi:type="basic:PartStack" xmi:id="_Rs4SImnJEeOGzOFis6Sl6A">
             <children xsi:type="basic:Part" xmi:id="_Rs4SI2nJEeOGzOFis6Sl6A" contributionURI="bundleclass://e4rcp/e4rcp.parts.FileExplorer" label="Sample Part"/>
             <children xsi:type="basic:Part" xmi:id="_hwWmsII8EeOVO7KmofiT-g" elementId="e4rcp.part.0" contributionURI="bundleclass://e4rcp/e4rcp.parts.D3Browser" label="D3Demo"/>
+            <children xsi:type="basic:Part" xmi:id="_vg2CoIJeEeOP1IDbIPqnag" elementId="e4rcp.part.1" contributionURI="bundleclass://e4rcp/e4rcp.parts.DemoTableViewer" label="DemoTable"/>
           </children>
         </children>
       </children>
