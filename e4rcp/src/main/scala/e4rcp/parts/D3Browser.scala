@@ -6,6 +6,7 @@ import org.eclipse.swt.browser.Browser
 import org.eclipse.swt.SWT
 import scala.io.Source
 import org.eclipse.swt.layout.FillLayout
+import org.eclipse.swt.browser.BrowserFunction
 
 class D3Browser {
 
@@ -18,6 +19,15 @@ class D3Browser {
     browser.setText(src.mkString)
     
     src.close()
+ 
+    // called by javascript
+    new BrowserFunction(browser, "javafunc") {
+      override def function(args: Array[Object]) = {
+        println(args.mkString(" "))
+        null
+      }
+    }
+    
   }
   
 }

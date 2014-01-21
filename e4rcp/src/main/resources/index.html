@@ -103,6 +103,8 @@ function change() {
   clearTimeout(timeout);
   if (this.value === "grouped") transitionGrouped();
   else transitionStacked();
+  
+  javafunc(this.value)
 }
 
 function transitionGrouped() {
